@@ -1,0 +1,16 @@
+<template>
+    <div class="footer">
+        <p>Mon footer</p>
+    </div>
+</template>
+
+<script setup>
+    
+</script>
+
+<style lang="scss" scoped>
+    .footer {
+        height: 5vh;
+        background: rgba(0, 0, 255, 0.445);
+    }
+</style>
