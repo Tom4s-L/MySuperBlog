@@ -7,6 +7,7 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
+    "@nuxtclub/slugify": "^1.1.0",
     "nuxt": "3.0.0-rc.1",
     "sass": "^1.50.1",
     "sass-loader": "12.6.0"

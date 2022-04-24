@@ -1,6 +1,6 @@
 <template>
     <div class="footer">
-        <p>Mon footer</p>
+        <p>Popsink ( technical test )</p>
     </div>
 </template>
 
@@ -11,6 +11,8 @@
 <style lang="scss" scoped>
     .footer {
         height: 5vh;
-        background: rgba(0, 0, 255, 0.445);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 </style>
