@@ -35,6 +35,11 @@
             content: "Bin il n'y a pas le choix en fait... il faut pédaler !! C'est le grand tout un jour qui a dit: ' S'il n'y a pas de jus quand tu branches dans le cochon, c'est que tu t'es trompé de sens !'"
         }
     ];
+
+    fetch('http://192.168.1.241:9000/articles')
+    .then(response => response.json())
+    .then(data => console.log(data));
+
 </script>
 
 <style lang="scss" scoped>

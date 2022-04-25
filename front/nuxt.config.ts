@@ -18,7 +18,10 @@ export default defineNuxtConfig({
         "@/assets/styles/main.scss"
     ],
 
-    buildModules: ["@nuxtclub/slugify"],
+    buildModules: [
+        "@nuxtclub/slugify"
+    ],
+
     slugify: {
         extend: {
             '_': '-',

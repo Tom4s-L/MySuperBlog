@@ -6,4 +6,4 @@ from article.models import Article
 @admin.register(Article)
 class ArticleAdmin(admin.ModelAdmin):
     
-    list_display = ('title', 'creation_date', 'update_date', 'content')
+    list_display = ('title', 'creation_date', 'content')
