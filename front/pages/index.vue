@@ -36,7 +36,7 @@
         }
     ];
 
-    fetch('http://192.168.1.241:9000/articles')
+    fetch('http://192.168.1.241:9000/articles/')
     .then(response => response.json())
     .then(data => console.log(data));
 
