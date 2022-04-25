@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar">
-        <NuxtLink to="/article" class="link">
+        <NuxtLink to="/article/write" class="link">
             <img src="@/assets/images/write.png" alt="Illustration de rédaction" class="link__img">
             Ecrrire un article
         </NuxtLink>
